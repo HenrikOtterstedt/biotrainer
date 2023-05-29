@@ -9,6 +9,7 @@ __DATASETS = {
     'residues_to_class': ResidueEmbeddingsClassificationDataset,
     'sequence_to_class': SequenceEmbeddingsClassificationDataset,
     'sequence_to_value': SequenceEmbeddingsRegressionDataset,
+    'residues_to_value': SequenceEmbeddingsRegressionDataset,
 }
 
 __COLLATE_FUNCTIONS = {
@@ -16,6 +17,7 @@ __COLLATE_FUNCTIONS = {
     'residues_to_class': pad_residues_embeddings,
     'sequence_to_class': pad_sequence_embeddings,
     'sequence_to_value': pad_sequence_embeddings,
+    'residues_to_value': pad_residue_embeddings,
 }
 
 

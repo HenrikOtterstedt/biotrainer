@@ -10,6 +10,7 @@ __SOLVERS = {
     'residues_to_class': ResiduesClassificationSolver,
     'sequence_to_class': SequenceClassificationSolver,
     'sequence_to_value': SequenceRegressionSolver,
+    'residues_to_value': SequenceRegressionSolver,  # has to maybe be optimized to be its own solver in the future
 }
 
 

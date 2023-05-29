@@ -13,6 +13,9 @@ __OPTIMIZERS = {
     'sequence_to_value': {
         'adam': lambda **kwargs: torch.optim.Adam(**kwargs, amsgrad=True)
     },
+    'residues_to_value': {
+        'adam': lambda **kwargs: torch.optim.Adam(**kwargs, amsgrad=True)
+    }
 }
 
 

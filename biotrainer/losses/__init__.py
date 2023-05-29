@@ -18,6 +18,9 @@ __LOSSES = {
     'sequence_to_value': {
         'mean_squared_error': lambda **kwargs: nn.MSELoss(**kwargs)
     },
+    'residues_to_value': {
+        'mean_squared_error': lambda **kwargs: nn.MSELoss(**kwargs)
+    }
 }
 
 

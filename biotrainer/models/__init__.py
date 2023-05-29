@@ -4,7 +4,7 @@ import inspect
 from .CNN import CNN
 from .LogReg import LogReg
 from .FNN import FNN, DeeperFNN
-from .LightAttention import LightAttention
+from .LightAttention import LightAttention, LightAttentionRegression
 from .model_params import count_parameters
 
 __MODELS = {
@@ -27,6 +27,9 @@ __MODELS = {
         'DeeperFNN': DeeperFNN,
         'LogReg': LogReg
     },
+    'residues_to_value': {
+        'LightAttentionRegression': LightAttentionRegression
+    }
 }
 
 

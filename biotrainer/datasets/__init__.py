@@ -17,7 +17,7 @@ __COLLATE_FUNCTIONS = {
     'residues_to_class': pad_residues_embeddings,
     'sequence_to_class': pad_sequence_embeddings,
     'sequence_to_value': pad_sequence_embeddings,
-    'residues_to_value': pad_residue_embeddings,
+    'residues_to_value': pad_residues_embeddings,
 }
 
 
